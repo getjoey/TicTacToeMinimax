@@ -21,6 +21,13 @@ public class TicTacToeBoard {
                 data[i][j] = ' ';
             }
         }
+
+        data[0][0] = 'X';
+        data[1][1] = 'O';
+        data[0][2] = 'X';
+        data[0][1] = 'O';
+        data[1][0] = 'X';
+        data[2][0] = 'O';
     }
 
     public Character[][] getData() {
